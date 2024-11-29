@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style_home.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <title>Sony Store</title>
+</head>
+
+<body>
+    <!-- Ínicio Menu -->
+    <header id="header">
+        <a id="logo" href="./home.html"><img src="../img/logo.png" alt="Logo Sony Store"> </a>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">
+                <span id="hamburguer"></span>
+            </button>
+            <!-- Em button estamos tratando a função do menu hamburguer -->
+            <!-- Inicio opções menu -->
+            <ul id="menu" role="menu">
+                <li><a class="linkMenu" href="./home.html"> Home </a></li>
+                <li><a class="linkMenu" href="#"> Quem Somos </a></li>
+                <li><a class="linkMenu" href="#"> Produtos </a></li>
+                <li><a class="linkMenu" href="#"> Contato </a></li>
+            </ul>
+            <!-- Fim opções de Menu -->
+        </nav>
+    </header>
+    <!-- Fim Menu -->
+    <!-- Início Carrossel Página Home -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-bs-pause="true">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="../img/Playstationb.jpeg" class="d-block w-100" alt="God Of War 1">
+            </div>
+            <div class="carousel-item" data-bs-interval="1500">
+                <img src="../img/BannerJogos2.jpeg" class="d-block w-100" alt="BloodBorne">
+            </div>
+            <div class="carousel-item" data-bs-interval="1500">
+                <img src="../img/Bannerplaystation.jpg" class="d-block w-100" alt="Dark Souls 3">
+            </div>
+            <div class="carousel-item" data-bs-interval="1500">
+                <img src="../img/PlaystationBanner.jpg" class="d-block w-100" alt="Elden Ring">
+            </div>
+
+        </div>
+        <!-- Início controle carousel -->
+        <button class="carousel-control-prev" data-bs-target="#carouselExampleInterval" type="button"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#carouselExampleInterval" type="button"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+        <!-- Fim controle carousel -->
+    </div>
+    <!-- Fim Carrossel Página Home -->
+      <!-- Início Banner -->
+
+      <div class="section-banner-home">
+        <div class="container-fluid">
+            <div class="row m-0">
+                <div class="col-12 col-md-6">
+                    <figure>
+                        <img src="../img/Playstation logo.png" alt="Banner home" />
+                    </figure>
+                </div>
+                <div class="col-12 col-md-6">
+                    <section class="text-banner d-none d-md-block">
+                        <h1>Conheça o melhor site para venda de jogos</h1>
+                        <p class="d-none d-md-block">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur natus earum culpa ratione labore officia nemo,
+                            repellendus dolorum quasi perspiciatis id? Suscipit, ab sed aspernatur amet quod architecto quaerat maxime.
+                        </p>
+                        <a href="#">Saiba Mais!</a>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim Banner -->
+
+    <!-- Início Destaque -->
+
+    <div class="destaque">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <!-- Início tag section do texto destaque -->
+
+                <section class="col-12">
+                    <h2>Jogos Disponíveis</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo molestiae quos et debitis fugit. Modi, provident laboriosam?
+                        Totam optio quibusdam nostrum voluptatibus architecto inventore dolor animi, qui pariatur consectetur blanditiis.
+                    </p>
+                </section>
+
+                <!-- Fim tag section do texto destaque -->
+                <!-- Início imagem 1 -->
+                <div class="col-6 col-md-2 pr-0">
+                    <figure>
+                        <a href="#"><img src="../img/god of war.png" alt="God Of War" /></a>
+                        <figcaption>
+                            God Of War<br />
+                            R$ 99,90
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- Fim imagem 1 -->
+                <!-- Início imagem 2 -->
+                <div class="col-6 col-md-2 pr-0">
+                    <figure>
+                        <a href="#"><img src="../img/Dark Souls 3.png" alt="Dark Souls 3" /></a>
+                        <figcaption>
+                            Dark Souls 3 <br />
+                            R$ 149,99
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- Fim imagem 2 -->
+                <!-- Início imagem 3 -->
+                <div class="col-6 col-md-2 pr-0">
+                    <figure>
+                        <a href="#"><img src="../img/BloodBorne.png" alt="BloodBorne" /></a>
+                        <figcaption>
+                            BloodBorne<br />
+                            R$ 160,00
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- Fim imagem 3 -->
+                <!-- Início imagem 4 -->
+                <div class="col-6 col-md-2 pr-0">
+                    <figure>
+                        <a href="#"><img src="../img/Elden ring.png" alt="Elden Ring" /></a>
+                        <figcaption>
+                            Elden Ring<br />
+                            R$ 250,00
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- Fim imagem 4 -->
+                <!-- Início imagem 5 -->
+                <div class="col-6 col-md-2 pr-0">
+                    <figure>
+                        <a href="#"><img src="../img/Godofwar3.jpg" alt="God Of War 3" /></a>
+                        <figcaption>
+                            God Of War 3<br />
+                            R$ 150,00
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- Fim imagem 5 -->
+                <!-- Início imagem 6 -->
+                <div class="col-6 col-md-2 pr-0">
+                    <figure>
+                        <a href="#"><img src="../img/Call of Dutty Bo3.jpeg" alt="Call Of Dutty Black Ops 3" /></a>
+                        <figcaption>
+                            Call Of Dutty Black Ops 3<br />
+                            R$ 120,00
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- Fim imagem 6 -->
+                <!-- Início imagem 7 -->
+                <div class="col-6 col-md-2 pr-0">
+                    <figure>
+                        <a href="#"><img src="../img/Monster Hunter World.jpeg" alt="Monster Hunter World" /></a>
+                        <figcaption>
+                            Monster Hunter World <br />
+                            R$ 97,80
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- Fim imagem 7 -->
+
+                <!-- Início Saiba Mais -->
+                <div class="col-12 d-flex justify-content-center">
+                    <a id="saiba-mais" href="#">Saiba mais!</a>
+                </div>
+                <!-- Fim Saiba Mais -->
+            </div>
+        </div>
+    </div>
+    <!-- Fim Destaque -->
+
+    <!-- Início Novidades -->
+    <div class="novidades" id="novidades-mobile">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Inicio texto novidades -->
+                    <section class="text-body">
+                        <h2>Conheça nossas novidades</h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In veritatis consequuntur aliquid beatae laboriosam
+                            assumenda numquam iure mollitia sit nobis est reprehenderit architecto dolore accusamus, inventore nostrum rem ipsam.
+                            Corrupti?
+                        </p>
+                        <!-- target="_blank" > ira abrir o in de destino em uma nova aba do navegador -->
+                        <a class="btn-banner" href="" target="_blank">Saiba mais!</a>
+                    </section>
+                    <!-- Fim texto novidades -->
+                </div>
+                <!-- Inicio imagem novidades -->
+                <div class="col-md-6">
+                    <figure><img class="img-fluid" src="../img/PS5 PRO.jpg" alt="" /></figure>
+                </div>
+                <!-- Dim imagem novidades -->
+            </div>
+        </div>
+    </div>
+    <!-- Fim Novidades -->
+
+    <!-- Inicio galeria -->
+    <div class="galeria d-flex align-itens-center">
+        <div class="container">
+            <div class="row">
+                <!-- Inicio texto galeria -->
+                <div class="col-12">
+                    <section class="texto-galeria">
+                        <h2>Conheça nossas opções de jogos</h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit voluptatum asperiores iusto! Voluptatem eum quod ex,
+                            temporibus unde beatae culpa maiores commodi, aut, vel magnam officiis dolore sit possimus assumenda?
+                        </p>
+                    </section>
+                </div>
+                <!-- Fim texto galeria -->
+                <!-- Inicio imagem galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="../img/BloodBorne.png" alt="BloodBorne" />
+                </div>
+                <!-- Fim imagem galeria -->
+                <!-- Inicio imagem galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="../img/Call of Dutty Bo3.jpeg" alt="Call Of Dutty Black Ops 3" />
+                </div>
+                <!-- Fim imagem galeria -->
+                <!-- Inicio imagem galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="../img/Dark Souls 3.png" alt="Dark Souls 3" />
+                </div>
+                <!-- Fim imagem galeria -->
+                <!-- Inicio imagem galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="../img/god of war.png" alt="God of War" />
+                </div>
+                <!-- Fim imagem galeria -->
+                <!-- Inicio imagem galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="../img/Godofwar3.jpg" alt="God of War 3" />
+                </div>
+                <!-- Fim imagem galeria -->
+                <!-- Inicio imagem galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="../img/Elden ring.png" alt="Elden Ring" />
+                </div>
+                <!-- Fim imagem galeria -->
+                <!-- Inicio imagem galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="../img/GodOfWarRagnarok.jpg" alt="God of War Ragnarok" />
+                </div>
+                <!-- Fim imagem galeria -->
+                <!-- Inicio imagem galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="../img/SpiderMan2.jpg" alt="Spider Man 2" />
+                </div>
+                <!-- Fim imagem galeria -->
+                <!-- Inicio imagem galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="../img/GTA5.jpg" alt="GTA V" />
+                </div>
+                <!-- Fim imagem galeria -->
+                <!-- Inicio imagem galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="../img/Horizon.jpg" alt="Horizon Zero Down" />
+                </div>
+                <!-- Fim imagem galeria -->
+                <!-- Inicio imagem galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="../img/Thelastofus2.jpg" alt="The Last of Us 2" />
+                </div>
+                <!-- Fim imagem galeria -->
+                <!-- Inicio imagem galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="../img/Tekken 5.jpg" alt="Tekken 5" />
+                </div>
+                <!-- Fim imagem galeria -->
+            </div>
+        </div>
+    </div>
+    <!-- Fim galeria -->
+    <!-- Inicio whatsapp -->
+    <div class="whatsapp">
+        <div class="container-grid logo-whats">
+            <a href="https://wa.link/f2l7bq" target="_blank">
+                <img class="pulse" src="../img/whats.png" alt="Entre em contato via nosso canal do whatsapp" />
+            </a>
+        </div>
+    </div>
+    <!-- Fim whatsapp -->
+
+    <!-- Inicio footer -->
+    <footer class="rodape">
+        <div class="container">
+            <div class="row m-0">
+                <!-- Inicio logo -->
+                <div class="col-md-4" id="logo_rodape">
+                    <figure><img src="../img/logo.png" alt="Logo rodape" /></figure>
+                </div>
+                <!-- Fim logo -->
+                <!-- Inicio texto contato -->
+                <div class="col-md-4">
+                    <div class="info-contato">
+                        <p><strong>Email:</strong></p>
+                        <p>Sony.company@gmail.com</p>
+                        <br />
+                        <p><strong>Endereço:</strong></p>
+                        <p>Avenida Dom Aguirre, 139</p>
+                        <br />
+                        <p><strong>Telefone:</strong></p>
+                        <p>+55 (15) 99532-9070</p>
+                    </div>
+                </div>
+                <!-- Fim texto contato -->
+                <!-- Inicio Redes sociais -->
+                <div class="col-md-4">
+                    <figure class="redes-sociais">
+                        <a href="http://www.facebook.com" target="_blank">
+                            <img src="../img/face.png" alt="Facebook" />
+                        </a>
+                    </figure>
+                    <figure class="redes-sociais">
+                        <a href="http://www.instagram.com" target="_blank">
+                            <img src="../img/insta.png" alt="instagram" />
+                        </a>
+                    </figure>
+                    <figure class="redes-sociais">
+                        <a href="http://www.linkedin.com" target="_blank">
+                            <img src="../img/linkedin.png" alt="linkedin" />
+                        </a>
+                    </figure>
+                    <figure class="redes-sociais">
+                        <a href="http://www.youtube.com" target="_blank">
+                            <img src="../img/youtube.png" alt="youtube" />
+                        </a>
+                    </figure>
+                    <br />
+                    <a class="linkFooter" href="#">Home</a>
+                    <a class="linkFooter" href="#">Sobre nos</a>
+                    <a class="linkFooter" href="#">Produto</a>
+                    <a class="linkFooter" href="#">Contato</a>
+                    <a class="linkFooter" href="#">Blog</a>
+                    <a class="linkFooter" href="#">Voltar ao topo</a>
+                </div>
+                <!-- Fim Redes sociais -->
+                <!-- Inicio direitos autorais -->
+                <div class="col-12">
+                    <p class="direitos">Todos os direitos reservados & copy; | Sony Company |</p>
+                </div>
+                <!-- Fim direitos autorais -->
+            </div>
+        </div>
+</body>
+
+<script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../JS/menu.js"></script>
+</html>
